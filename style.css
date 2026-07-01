@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+#timer {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  margin: 0.3rem;
+}
