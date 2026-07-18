@@ -28,8 +28,11 @@ async function loadPage(pageName) {
   }
 }
 
-document.querySelectorALL("[data-page").forEach(("button") => {
+document.querySelectorAll("[data-page]").forEach((button) => {
     button.addEventListener("click", () => {
       loadPage(button.dataset.page);
   });
 )}:
+
+
+loadPage("start");
